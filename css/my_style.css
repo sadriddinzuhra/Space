@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.invalid input:required:invalid {
+    background: #BE4C54;
+  }
+  .invalid input:required:valid {
+    background: #17D654;
+  }
+
+
+  
+.main {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .main .btn1 {
+    position: absolute;
+    top: 39%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 12px;
+    padding: 20px 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .main .btn2 {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 12px;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .main .btn3 {
+    position: absolute;
+    top: 48%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 12px;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-style: italic;
+  }
+
+  
+  .main .btn:hover {
+    background-color: white;}
+
+      
+      @media (max-width:760px) { 
+          /* matches 'btn-xs' */
+          .main .btn {
+              padding: 5px 5px;
+              font-size: 5px;
+          }
+
+      }
